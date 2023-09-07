@@ -3,11 +3,15 @@
   "version-semver": "0.0.1",
   "description": "A collaborative reverse-engineered library for Starfield",
   "homepage": "https://github.com/Starfield-Reverse-Engineering/CommonLibSF",
-  "license": "",
+  "license": "GPL-3.0-or-later",
   "supports": "windows & x64",
   "dependencies": [
     {
       "name": "vcpkg-cmake-config",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake",
       "host": true
     },
     "fmt",
