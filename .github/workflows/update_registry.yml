@@ -1,0 +1,14 @@
+name: Update vcpkg Registry
+
+on:
+  repository_dispatch:
+    types: [update-event]
+
+jobs:
+  update-event:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sha: ${{ github.event.client_payload.sha }}
+      - run: # TODO: do stuff with sha
