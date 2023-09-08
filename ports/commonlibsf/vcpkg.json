@@ -1,6 +1,6 @@
 {
   "name": "commonlibsf",
-  "version-semver": "0.0.1",
+  "version-date": "2023-09-07",
   "description": "A collaborative reverse-engineered library for Starfield",
   "homepage": "https://github.com/Starfield-Reverse-Engineering/CommonLibSF",
   "license": "GPL-3.0-or-later",
