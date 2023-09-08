@@ -19,13 +19,13 @@ CommonLibSF is available as a vcpkg port. To add it to your project,
     "default-registry": {
         "kind": "git",
         "repository": "https://github.com/microsoft/vcpkg",
-        "baseline": "<SHA>"
+        "baseline": "7b5ca09708ae42dba9517d4e0a0c975d087f1061"
     },
     "registries": [
         {
             "kind": "git",
             "repository": "https://github.com/Starfield-Reverse-Engineering/Starfield-RE-vcpkg",
-            "baseline": "<SHA>",
+            "baseline": "4afa6c12061c02adb56f996eb09e029d4a9b0fc8",
             "packages": [
                 "commonlibsf"
             ]
