@@ -14,7 +14,7 @@
 
 CommonLibSF is available as a vcpkg port. To add it to your project,
 
-1. Create a `vcpkg-configuration.json` file in the project root (next to `vcpkg.json`) OR append the following to your existing `vcpkg.json`:
+1. Create a `vcpkg-configuration.json` file in your project root (next to `vcpkg.json`) with the following OR append to your existing `vcpkg.json`:
 
 ```json
 {
