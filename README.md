@@ -6,9 +6,9 @@
 
 ### Including CommonLibSF in your project
 
-#### Using the example plugin
+#### Using the CommonLibSF plugin template
 
-( TODO )
+A plugin template is provided at https://github.com/Starfield-Reverse-Engineering/CLibSFPluginTemplate. Clone the repo and run the project setup script to get started developing your plugin without having to worry about setting things up.
 
 #### Starting from scratch
 
