@@ -32,6 +32,6 @@ jobs:
         if: ${{ steps.registry.outputs.VCPKG_SUCCESS }} == 'true'
         uses: EndBug/add-and-commit@v9
         with:
-          committer_name: vcpkg-action
-          committer_email: 41898282+github-actions[bot]@users.noreply.github.com
+          author_name: vcpkg-action
+          author_email: 41898282+github-actions[bot]@users.noreply.github.com
           message: "chore: update registry"
