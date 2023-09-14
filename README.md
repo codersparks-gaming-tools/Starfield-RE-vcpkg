@@ -2,7 +2,7 @@
 
 ## CommonLibSF
 
-[![VCPKG_VER](https://img.shields.io/static/v1?label=vcpkg%20registry&message=2023-09-14.3&color=green&style=flat)](https://github.com/Starfield-Reverse-Engineering/Starfield-RE-vcpkg)
+[![VCPKG_VER](https://img.shields.io/static/v1?label=vcpkg%20registry&message=2023-09-14.4&color=green&style=flat)](https://github.com/Starfield-Reverse-Engineering/Starfield-RE-vcpkg)
 
 ### Including CommonLibSF in your project
 
@@ -21,13 +21,13 @@ CommonLibSF is available as a vcpkg port. To add it to your project,
   "default-registry": {
     "kind": "git",
     "repository": "https://github.com/microsoft/vcpkg",
-    "baseline": "2c401863dd54a640aeb26ed736c55489c079323b"
+    "baseline": "d99b6930b920d85dd4e1edbac37ecb3f354185c0"
   },
   "registries": [
     {
       "kind": "git",
       "repository": "https://github.com/Starfield-Reverse-Engineering/Starfield-RE-vcpkg",
-      "baseline": "21d1b46bd758cab934c95ec39e5daed9a80c4ae8",
+      "baseline": "6062547aaa4369c861d62062bd02f232a3eeb078",
       "packages": ["commonlibsf"]
     }
   ]
