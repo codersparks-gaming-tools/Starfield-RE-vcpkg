@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  VCPKG_COMMIT_ID: 08cc145ed5858faa83160986b3f27f37c499d6ad
+  VCPKG_COMMIT_ID: 9648982d407bd9b0e11bd8fda147ebc4cab0bcc9
   VCPKG_PORT_REPO: ${{ github.repository_owner }}
 
 jobs:
