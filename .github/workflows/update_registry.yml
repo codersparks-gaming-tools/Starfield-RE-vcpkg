@@ -5,6 +5,10 @@ on:
     types: [update-event]
   workflow_dispatch:
 
+concurrency:
+  group: vcpkg
+  cancel-in-progress: true
+
 env:
   VCPKG_COMMIT_ID: 70fd7df7a9e2d3d47ab6bf87fc7347a6c2d06fda
   VCPKG_PORT_REPO: ${{ github.repository_owner }}
@@ -32,6 +36,5 @@ jobs:
         if: ${{ steps.registry.outputs.VCPKG_SUCCESS }} == 'true'
         uses: EndBug/add-and-commit@v9
         with:
-          author_name: vcpkg-action
-          author_email: 41898282+github-actions[bot]@users.noreply.github.com
           message: "chore: update registry"
+          default_author: github_actions
