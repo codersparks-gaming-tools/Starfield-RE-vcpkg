@@ -10,7 +10,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  VCPKG_COMMIT_ID: cc97b4536ae749ec0e4f643488b600b217540fb3
+  VCPKG_COMMIT_ID: ae360361a434310ffee36d84eb01c033b648fb22
   VCPKG_PORT_REPO: ${{ github.repository_owner }}
 
 jobs:
