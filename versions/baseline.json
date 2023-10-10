@@ -1,7 +1,7 @@
 {
   "default": {
     "commonlibsf": {
-      "baseline": "2023-10-10.1",
+      "baseline": "2023-10-10.2",
       "port-version": 0
     }
   }

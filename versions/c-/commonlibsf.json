@@ -539,6 +539,11 @@
       "version": "2023-10-10.1",
       "port-version": 0,
       "git-tree": "a4380e38f033b68a4a70c63297034a89e9fa3b9b"
+    },
+    {
+      "version": "2023-10-10.2",
+      "port-version": 0,
+      "git-tree": "e53e88b600ce43f3775f33de89bafb525d361920"
     }
   ]
 }
