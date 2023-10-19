@@ -604,6 +604,11 @@
       "version": "2023-10-19.2",
       "port-version": 0,
       "git-tree": "94785f315c1fb1ff1b9622a71d649efe47e5338b"
+    },
+    {
+      "version": "2023-10-19.3",
+      "port-version": 0,
+      "git-tree": "9718ef26cb6b0dc1c2d2427450fc60fbced5dea3"
     }
   ]
 }
