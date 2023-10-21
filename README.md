@@ -46,5 +46,10 @@ CommonLibSF is available as a vcpkg port. To add it to your project,
 
 ```cmake
 find_package(CommonLibSF CONFIG REQUIRED)
-add_commonlibsf_plugin(${PROJECT_NAME} AUTHOR AuthorName SOURCES ${headers} ${sources})
+
+add_commonlibsf_plugin(
+  ${PROJECT_NAME}
+  AUTHOR AuthorName
+  SOURCES ${headers} ${sources}
+)
 ```
